@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(13, 33, 124);
 }
 
 .App-logo {
@@ -35,4 +41,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.hero-image {
+  background-image: url("giphy.gif");
+  background-color: #cccccc;
+  height: 100vh;
+  /* height: 500px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  justify-content: left;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(1, 6, 15);
+}
+.background {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image:url('giphy.gif');
+  background-size:contain, cover;
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+  height:100%;
+  width:100%;
+}
+.button {
+  background-color: rgb(221, 225, 231); 
+  color: black; 
+  border: 2px solid #0d130d;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #3a0ba8; 
+  color: white;
+}
+
+.container {
+  flex-direction: row ;
+}
+
+ol.numbered {
+  list-style-type: number;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(13, 33, 124);
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }

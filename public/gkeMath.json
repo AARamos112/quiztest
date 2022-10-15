@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "questions": "The regular price of a computer is $1200, and the regular price of a printer is $300. An electronics store has a promotion that offers a 40% discount on the printer when the computer is purchased at the regular price. What is the total cost of the computer and the printer at the promotional price? Choose an answer",
+        "possible1": "$1320" ,
+        "possible2": "$1380",
+        "possible3": "$1460" ,
+        "possible4": "$1500" ,
+        "answer": "B"
+    },
+
+    {
+        "id": "2",
+        "questions": "An electronics store has a current inventory of 50 stereo systems. The lowest priced stereo system in the store sells for $800, and the highest priced stereo system sells for $3000. Which of the following is the maximum amount of $3000 systems on hand if the current inventory totals $111,000?  Choose an answer",
+        "possible1": "30",
+        "possible2": "32",
+        "possible3": "35",
+        "possible4": "37",
+        "answer": "B"  
+    },
+
+    {
+        "id": "3",
+        "questions": "Simplify.(15 - 3) ÷ (2 + 1) × (8 - 6) Choose an answer",
+        "possible1": "50",
+        "possible2": "42",
+        "possible3": "8",
+        "possible4": "2",
+        "answer": "C"
+    },
+
+    {
+        "id":"4",
+        "questions": "A building 51 feet tall casts a shadow 48 feet long. Simultaneously, a nearby statue casts a shadow of 16 feet. How tall is the statue? Choose an answer",
+        "possible1": "17 ft",  
+        "possible2": "19 ft",  
+        "possible3": "23 ft",  
+        "possible4": "153 ft", 
+        "answer": "A"
+    },
+
+    {
+        "id":"5",
+        "questions": "A rectangular animal pen will be built using 200 meters of fencing. If one side of the rectangle is 60 meters, find the area of the pen. Choose an answer",
+        "possible1": "1200 m squared",
+        "possible2": "1400 m squared",
+        "possible3": "2400 m squared",
+        "possible4": "8400 m squared",
+        "answer": "C"
+    }
+
+]

@@ -1,0 +1,14 @@
+[
+
+    {
+        "id":  "1 ",
+        "questions": "When you have a subquery inside of the main query, which query is executed first?",
+        "possible1":  "The subquery is never executed. Only the main query is executed.",
+        "possible2":  "They are executed at the same time",
+        "possible3":  "The main query",
+        "possible4":  "The subquery",
+        "answer": "D"
+        
+    }
+
+]

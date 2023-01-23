@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Home', href:"/", current: false },
   { name: 'Quiz', href: "/quiz", current: false },
   { name: 'GKE Math Practice Quiz ', href: '/mathquiz', current: false },
+  { name: 'MySQL Assessment Practice', href: '/sqlpractice', current: false },
   //{ name: 'Calendar', href: '#', current: false },
 ]
 
@@ -49,9 +50,9 @@ export default function Navbar() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <NavLink
                         key={item.name}
-                        href={item.href}
+                        to={item.href}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
@@ -59,7 +60,7 @@ export default function Navbar() {
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </NavLink>
                     ))}
                   </div>
                 </div>
@@ -80,7 +81,7 @@ export default function Navbar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://www.freepnglogos.com/uploads/owl/owl-clipart-clip-black-and-white-cute-owl-halloween-clipart-clip-art-2.png"
+                        src="https://clipground.com/images/owl-clipart-logo-1.png"
                         alt=""
                       />
                     </Menu.Button>
